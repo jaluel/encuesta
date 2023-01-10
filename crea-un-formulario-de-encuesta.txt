@@ -1,0 +1,71 @@
+** start of undefined **
+
+<header>
+  <nav id="nav-bar">
+<h1 id="title"><strong>Encuesta Rapida</strong></h1>
+    <p id="description">Ayudanos a saber de tí</p>
+  </nav>
+</header>
+<main id="main-container">
+  <article>
+    <form id="survey-form" action="#">
+    <section>
+      <label for="name" id="name-label"><p>Nombre y Apellido</p>
+        <input id="name" type="text" name="nombre" placeholder="Introduce tu nombre" required>
+      </label>
+    </section>
+    <section>
+      <label for="email" id="email-label"><p>Email</p>
+        <input id="email" type="email" name="email" placeholder="Introduce tu email" required>
+    </section>
+    <section>
+      <label for="number" id="number-label"><p>Edad</p>
+        <input id="number" type="number" name="edad" placeholder="Age" min="1" max="99" required
+      </label>
+    </section>
+    <section > 
+      <label for="codigo-favorito"><p>¿Cuál es tu codigo favorito?</p>   
+    <select id="dropdown" name="lenguaje-favorito"  required>
+          <option disabled selected value>Tu Lenguaje favorito</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="sql">SQL</option>   
+          <option value="python">PYTHON</option>
+          <option value="php">PHP</option></select>
+      </label>
+    </section>
+    <section>
+      <label for="conocidos-via" id="conocer-label"><p>¿Como te enteraste de la "Programacion"?</p>
+        <input id="conocidos-via" type="radio" name="conocidos-via" value="youtube">Youtube<br>
+        <input id="conocidos-via" type="radio" name="conocidos-via" value="internet">Internet<br>
+        <input id="conocidos-via" type="radio" name="conocidos-via" value="facebook">Facebook<br>
+        <input id="conocidos-via" type="radio" name="conocidos-via" value="amigos">Amigos<br>
+        <input id="conocidos-via" type="radio" name="conocidos-via" value="otros">Otros
+      </label>
+    </section>
+    <section>
+      <label for="ramas-programacion" id="ramas-programacion"><p>¿Que te gustaria aprender?</p>
+        <input id="ramas-programacion" type="checkbox" name="ramas-programacion" value="desarrolo-web"> Desarrollo Web<br>
+        <input id="ramas-programacion" type="checkbox" name="ramas-programacion" value="videos-juegos">Videos Juegos<br>
+        <input id="ramas-programacion" type="checkbox" name="ramas-programacion" value="seguridad-informatica">Seguridad Informatica<br><input id="ramas-programacion" type="checkbox" name="ramas-programacion" value="desarrollo-movil">Desarrollo Movil<br>
+        <input id="ramas-programacion" type="checkbox" name="ramas-programacion" value="realidad-virtual">Realidad Virtual<br> <input id="ramas-programacion" type="checkbox" name="ramas-programacion" value="inteligencia-artificial">Inteligencia Artificial<br>
+      </label>
+    </section>
+    <section>
+      <p>Observaciones:</p><textarea id="comentarios" name="comentarios" placeholder="Escribe tus comentarios aquí..."></textarea>
+    </section>
+    <section>
+        <input button id="submit" type="submit" value="Completar"></button>
+    </section>
+    </form>
+  </article>
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+.title{font-family:Algerian; font-size: 24px; color:blue; }
+
+** end of undefined **
+
